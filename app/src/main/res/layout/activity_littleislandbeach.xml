@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/insiback"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Beaches In Little Andaman Island"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      The fourth largest island on the beach, Little Andaman offers amazing views of the Arabian Sea which you can enjoy on this beach mentioned below:"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="1. Butler Bay Beach"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/butlerbeach" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" About:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      One of the best surfing spots in India, Butler Bay Beach is a paradise for surfers. The water is clear and the current is quite strong posing apt conditions for surfing but not for swimming unless you are a pro. Enjoy the fascinating stretch of yellow sand or find a tree below which you can sit and simply do nothing. Take a nap or read a book maybe."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Famous For:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="Swimming, surfing, kayaking, trekking, and elephant riding."
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

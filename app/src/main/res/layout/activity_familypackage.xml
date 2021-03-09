@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenleaf"
+    tools:context=".familypackage">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00bfff"
+        tools:ignore="MissingConstraints" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/allan"
+            android:gravity="center"
+            android:text="Family Andaman Package"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/backhome"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bestback">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/headerback"
+                                android:layout_width="390dp"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/family"
+                                android:transitionName="background_image_transition" />
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textviewb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:alpha="1"
+                        android:fontFamily="@font/allan"
+                        android:text="**Get the Best Andaman Holiday Planned by Experts! "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textviewc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="   We offer Andaman Tour packages covering some amazing destinations of fascinating Andaman and Nicobar Islands. "
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/textviewa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Photo Gallery"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:id="@+id/imaged"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fa2" />
+
+                        <ImageView
+                            android:id="@+id/imagee"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fa1" />
+
+                        <ImageView
+                            android:id="@+id/imagef"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fa3" />
+                        <ImageView
+                            android:id="@+id/image1"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fa4" />
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/fav5" />
+
+
+                    </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textviewd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/allan"
+                            android:text="DURATION :"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textviewe"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/allan"
+                            android:text="7 Nights / 8 Days"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textviewf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/allan"
+                            android:text="DESTINATION COVERED :"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textviewg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/allan"
+                            android:text="Port Blair, Neil Island &amp; Havelock Island"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textviewh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/allan"
+                            android:text="PRICE :"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textviewi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/allan"
+                            android:text="INR 31,999"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/textviewJ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/allan"
+                        android:layout_gravity="center_horizontal"
+                        android:text="---- OVERVIEW ----"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Andaman and Nicobar Islands is an enchanting land full of surprises and is a favourite destination for tourists and travellers from India as well as from the far-off countries who come in search of sand, sun and sea. The out-of-the-world experiences with exotic beaches, mysterious mangroves, remarkable coral reefs, lively underwater world, exciting water sports and adventures and dolphin spotting add a zing to the whole vacation experience. The sun-kissed powdery beaches are pretty enough to attract tourist and travellers from all across the world. The coral reef and thriving colourful fishes and water life along with colourful coral watch is a great additional attraction."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                      />
+                    <TextView
+                        android:id="@+id/textviewK1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Catch up with the best beauties of Andaman island destinations through a Family Andaman Package put together thoughtfully not to let you miss out on the top-notch tourist attractions."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/textviewL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:alpha="1"
+                        android:fontFamily="@font/allan"
+                        android:text="Main Highlights of this Tour:"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Port Blair sight-seeing and souvenir shopping"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Ross Island excursion for an informative historical sojourn"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Coral/North Bay Island visit for water sports and adventure activities"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                     />
+                    <TextView
+                        android:id="@+id/textviewP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Exploring the enigmatic Viper Island"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewQ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Enjoying the enthralling beaches of Neil Island"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textvieR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Neil Island to Havelock Island cruise across the beautiful calm seas"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                       />
+                    <TextView
+                        android:id="@+id/textvieS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Visit to the enigmatic Elephant Beach of Havelock with 1 exciting session of snorkelling"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textvieS1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Promenading the enchanting Radha Nagar Beach, the best beach in Asia famed"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textvieS13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Kalapathar Beach excursion"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/textvieS12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                       android:fontFamily="@font/courgette"
+                        android:text="* Exciting day trip to Mount Harriet."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/textviewm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:layout_gravity="center_horizontal"
+                        android:text="---- SHORT ITINERARY ----"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 1: Arrival at Port Blair + Ross / Coral/North Bay &amp; Viper Island Excursion"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 2: Port Blair to Neil Island"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 3: Neil Island excursion"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 4: Neil Island to Havelock Island"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewW"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 5: Elephant Beach with 1 session of Snorkelling &amp; Radha Nagar Beach excursion"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewW0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 6: Memorable Kalapathar beach excursion/Havelock to Port Blair"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewW1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 7: Excursion to Mount Harriet"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewW12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:alpha="0.8"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 8: Departure"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allan"
+                        android:text="---- DETAILED ITINERARY ----"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviews"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 1: Arrival at Port Blair + Ross / Coral/North Bay &amp; Viper Island Excursion"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Arrive at the dream destination of Andaman, a land of charm and beauty. AndamanTourism personnel shall be at the airport to welcome you warmly and drop you at the chosen hotel in Port Blair. After dropping the luggage at the hotel and a brief freshening up, proceed towards the Phoenix Bay Jetty for hopping on to a boat cruising to nearby Ross Island. Ross Island takes about 20 minute of ferry ride from Port Blair. An island of preserved heritage, it is small, picturesque and spectacular."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                      />
+                    <TextView
+                        android:id="@+id/textviewt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      After the Ross Island visit, proceed towards North Bay Island for a magnificent coral watch through snorkelling or sea walking or scuba diving. Enjoy the high-speed boating, the glass-bottom boating, the Dolphin boat cruise and the deep sea adventures."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                       />
+                    <TextView
+                        android:id="@+id/textviewt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Then move towards an interesting destination, the Viper Island. Viper Island is an enigmatic place known to be the home of a lot of snakes (hence the name) with buildings of historical importance, gallows where the prisoners were executed and the lush greenery that fringes the island. Enjoy sunset view in this island. Return to Port Blair and back to the hotel for night stay."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                      />
+
+                    <TextView
+                        android:id="@+id/textviewu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 2: Port Blair to Neil Island"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Early morning after breakfast, proceed to the Port Blair Phoenix Jetty to catch a ferry to Neil Island. The journey is approximately 40 kilometres long and takes 2.5 to 4 hours depending on the speed of the ferry. The high-speed catamaran rips the calm seas and offers you a breezy pleasant salty air ride."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                       />
+
+
+                    <TextView
+                        android:id="@+id/textviewy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 3: Neil Island excursion"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Start the day with a visit to the beautiful natural rock formation popularly called Howrah Bridge. The approach to this bridge-like rock is somewhat rough, rocky, muddy and slippery. It is a spot to watch some unique species of starfish, corals, molluscs, snakes and sea cucumbers. Then move towards the very exotic Bharatpur Beach known for its clear blue waters. Go for a refreshing swim, hang around lazily on the beach or play among the foamy waves. Later on, visit the gentle, sandy Laxmanpur Beach of sheer breathless charm. Watch the golden sunset and then return to the hotel at Neil Island."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textview1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 4: Neil Island to Havelock Island"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Start the day with an early morning sunrise in a beach close to your hotel property. Return to have your breakfast and pack off to proceed to the Neil Island Jetty for catching the ferry to the gorgeous Havelock Island. After reaching Havelock, spend the day exploring the property. Walk over to the nearest beach to view the breathless beauty of the blue Andaman Seas. Stay overnight at Havelock in the hotel of your choice."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/textviewY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 5: Elephant Beach with 1 session of Snorkelling &amp; Radha Nagar beach excursion"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewZ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      After breakfast, visit the extremely adventurous Elephant Beach, which is famous for scuba diving and snorkelling. Take a fabulous underwater trip into the coral reefs through a scuba or snorkelling session or avail the glass-bottom boat ride. The waters of Elephant Beach are very clear and offer magnificent view of the underwater corals and the busy marine ecosystem. In the second half, proceed towards the very famous Radhanagar Beach. It is one of the best beaches of the world. Its beauty and serenity attracts a lot of tourists all through the year. Enjoy the exquisite sea view and cherish the memories. Return to Havelock hotel to spend the night."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                       />
+                    <TextView
+                        android:id="@+id/textviewY1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 6: Kalapathar beach excursions / Havelock to Port Blair"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewZ0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      After an early breakfast drive to the Kalapatthar Beach. This beach derives its name from the submerged black rocks (kala means black and patthar is rocks) and is not quite suitable for swimming or water activities. Simply enjoy the beach beauty and sprawling sea view. The drive to the beach is extremely picturesque. Enjoy the seclusion of the beach and spend some moments of peace and intense solitude."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewY12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 7: Excursion to Mount Harriet."
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewZ01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      This day is dedicated to Mount Harriet National Park excursion, which is accessible from Port Blair via Bombooflot, by ferry service or by road. The ferry service takes about 15 to 20 minutes. The road journey takes about an hour to cover the 40 km distance. Mount Harriet National Park has an area of 4,662 hectares surrounded by mountain ranges. The steep slopes, rocky beaches and the small sandy areas in between, the streams rising in the hills and flowing into the sea are all a treat to the senses. Return after a day well spent in the lap of untouched and unspoilt beauty to the hotel in Port Blair for night stay."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewY13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Day 8: Departure"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewZ02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      With the mind filled with unforgettable memories of an island paradise depart from Andamans from the Veer Savarkar Airport. Carry the memories long after you have visited this remote island beauty."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/textview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/allan"
+                        android:text="---- INCLUSIONS/EXCLUSIONS ----"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:alpha="1"
+                        android:fontFamily="@font/allan"
+                        android:text="Package Inclusion(s):"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* 03 nights stay on twin sharing basis at Port Blair"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/textview61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* 02 nights stay on twin sharing basis at Havelock"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textview7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Breakfast on all days"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                      />
+                    <TextView
+                        android:id="@+id/textview8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+
+                        android:fontFamily="@font/courgette"
+                        android:text="* Greeting and assistance on arrival at Port Blair Airport by a AndamanTourism representative"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textview9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Sightseeing in Non-AC vehicle as per the itinerary"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textview0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* All pickups and drops from airport and ferry jetties"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                       />
+                    <TextView
+                        android:id="@+id/textviewA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Entry tickets to all sightseeing places mentioned in the itinerary"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* All ferry transfers by private ferry"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                    />
+                    <TextView
+                        android:id="@+id/textviewC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Includes all taxes"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="15dp"
+                        android:alpha="1"
+                        android:fontFamily="@font/allan"
+                        android:text="Package Exclusion(s):"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Car on disposal."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                      />
+                    <TextView
+                        android:id="@+id/textviewF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Availability of vehicle on leisure days."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textviewG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Guide charges and camera fees."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewH"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Tips, insurance, laundry charges, phone calls."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Room mini bar services."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Anything that is not mentioned under ‘Inclusions’ section"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="45dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/teal_200"
+                        android:onClick="open"
+                        android:text="Book Now"
+                        app:backgroundTint="@color/teal_200" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

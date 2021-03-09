@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greenleaf"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Travel By Flight"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/tramain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" About:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/abouthave"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/allan"
+                    android:text=" Nearest Airport:  "
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:includeFontPadding="true"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text=" Veer Savarkar International Airport, Port Blair "
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:includeFontPadding="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allan"
+                    android:text=" Best places to visit:  "
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:includeFontPadding="true"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/courgette"
+                    android:text="@string/port_blair_swaraj_dweep_havelock_island_neill_island_ross_smith_islands"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:includeFontPadding="true"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/tra1" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/tra2" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/tra3" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/tra4" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" By Flight:  "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/avai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Sea Plane Schedule And prices"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_margin="8dp"
+                android:background="@color/white">
+
+                <TableRow android:background="@color/teal_200">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="10sp"
+                        android:text="Travel by Flight"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="Travel Time"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="7sp"
+                        android:text=" Distance "
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="10sp"
+                        android:text="Airport"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="7sp"
+                        android:text="Delhi to Andaman"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="2 hr, 55 minutes"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="7sp"
+                        android:text="2,481 km"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="5sp"
+                        android:text="Indira Gandhi International Airport"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="7sp"
+                        android:text="Mumbai to Andaman"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text=" 3 hr, 15 minutes"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="7sp"
+                        android:text="2,268 km"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="5sp"
+                        android:text="Chhatrapati Shivaji Maharaj International Airport"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="7sp"
+                        android:text="Chennai to Andaman"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="2 hr, 15 minutes"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="7sp"
+                        android:text="1,353 km"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="5sp"
+                        android:text="Chennai International Airport"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="7sp"
+                        android:text="kolkata to Andaman"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="2 hr, 15 minutes"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="7sp"
+                        android:text="1,287 km"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="5sp"
+                        android:text="Netaji Subhas Chandra Bose International Airpor"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="7sp"
+                        android:text="Visakhapatnam to Andaman"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="2 hr,  20 minutes"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="7sp"
+                        android:text="1,210 km"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="5sp"
+                        android:text="Visakhapatnam International Airport"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="7sp"
+                        android:text="Kochi to Andaman"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="5 hr,  20 minutes"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="7sp"
+                        android:text="1,800 km"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="5sp"
+                        android:text="Cochin International Airport"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="7sp"
+                        android:text="Pune to Andaman"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="5 hr,  20 minutes"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="4"
+                        android:padding="7sp"
+                        android:text="2,151 km"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="6"
+                        android:padding="5sp"
+                        android:text="Pune International Airport"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </TableRow>
+
+
+            </TableLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greenleaf"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Little Andaman Isalnd"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/little3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" About:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/abouthave"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/littlemain" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/little1" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/little2" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/little4" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/little5" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text="When to visit Little Andaman Isalnds:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/perfectsea"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Little Andaman Tourist Attractions:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/littleatt" />
+            <TextView
+                android:id="@+id/seamain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Things To DO In Little Andaman Isalnd"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Little Andaman is full of options how to actively spend your time. Surfing is definitely the most famous activity on the island. While it has always been known to surfing-pros it now also gaining popularity among locals and some indian tourists. Some resorts are already renting out boards and offer training. Adrenaline junkies will be thrilled to know there are also plenty of trekking options in the island too.Lush jungles, palm plantations and trails leading to spectacular waterfalls offer a tiring but exciting walk. White Surf waterfall is easily accessible, but for the bigger Whisper Wave waterfall one has to indulge deeper in the jungle. Both are better visited in dry season when there are less insects and no puddles and swamps."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:id="@+id/things"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" How to Reach Little Andaman Isalnd:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" By Sea:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/priship"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" By Air"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/govship"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Things To Keep In Mind"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/lang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

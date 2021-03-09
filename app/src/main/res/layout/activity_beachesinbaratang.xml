@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/insiback"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Beaches In Baratang Island"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Known for its mangrove creeks, mud volcanoes, and limestone caves, this island between south and middle Andaman has beauteous beaches"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1. Baludera Beach"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/baluderabeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Baludera Beach is less crowded and one of the most famous beaches in Andaman. This spectacular seafront has a curved sand bay that is intertwined with mangrove vegetation. The water is warm, clean, and perfect for a relaxed swimming experience. You should definitely add this beach to your Andaman itinerary to enjoy having a good time."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elephant rides on the beach and picnic."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2. Merk Bay Beach"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/merkbeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Merk Bay is the best beach in Andaman and Nicobar islands and it sees minimum tourists but offers lovely scenic views to those who visit. This white sand beach can be reached in a dinghy. The sunset views from the beach are simply amazing. The turquoise waters of the beach will leave you rejuvenated and you can enjoy watching the sunset."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Bathing, snorkeling, bird watching, and dolphin spotting."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

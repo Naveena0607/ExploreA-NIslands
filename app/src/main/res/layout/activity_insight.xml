@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/leafleaf"
+        android:layout_height="match_parent"
+        tools:context=".InsightActivity">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="@string/insight_of_andaman_nicobar_islands"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/carda"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/act"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/actmain" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text=" Activities"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/hdbeach" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Beaches"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/islandblur" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text=" Islands"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardm"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/museum" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Museums"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardf"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/food" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewE"
+                            android:layout_width="63dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Food"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardh"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewF"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/hoteltree" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewF"
+                            android:layout_width="93dp"
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Hotel"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewG"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/cafe" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewG"
+                            android:layout_width="84dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="65dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Cafe"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardq"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewH"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/shop" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+
+                        <TextView
+                            android:id="@+id/textViewH"
+                            android:layout_width="113dp"
+                            android:layout_height="51dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Shopping"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/fair" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+
+                        <TextView
+                            android:id="@+id/textViewI"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="70dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="@string/fairs_festivals"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardy"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewJ"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/port" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewJ"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Places Around PortBlair"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/park" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewk"
+                            android:layout_width="101dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Parks"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardx"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:elevation="15dp"
+                    app:cardCornerRadius="40dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageViewl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/san" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77000000"
+                            android:clickable="false" />
+
+                        <TextView
+                            android:id="@+id/textViewl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="55dp"
+                            android:fontFamily="@font/dancing_script"
+                            android:gravity="center"
+                            android:includeFontPadding="true"
+                            android:text="Sanctuaries"
+                            android:textColor="@color/white"
+                            android:textSize="28dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+

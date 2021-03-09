@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/insiback"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Beaches In Long Island"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Long Island is also known to have some of the best beaches in Andaman Islands. If you are planning a trip to this beautiful island, you can explore the beaches mentioned below:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1. Lalaji Bay Beach"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/lalabeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Lalaji Bay Beach is one of the most popular beaches of Long Island and a must-visit during your Andaman tour. This scenic beach is located 6 km from the main jetty and can be accessed in small dinghies through Mangrove creeks and tropical waterways. It is one of the most suggested and unforgettable experiences to do if you are planning a family trip to Andaman."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Dolphin spotting, sunbathing, boating, and spending some comfortable time in the sea-facing eco huts"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

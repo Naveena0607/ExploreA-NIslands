@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenleaf"
+    tools:context=".zonalmuseum">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00bfff"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/allan"
+            android:gravity="center"
+            android:text="Zonal Anthropological Museum"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/backhome"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bestback">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/headerback"
+                    android:layout_width="395dp"
+                    android:layout_height="225dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/z1"
+                    android:transitionName="background_image_transition" />
+                <TextView
+                    android:id="@+id/textviewb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="      The Zonal Anthropological Museum in Port Blair was established in 1975. It is one of the best museums in town to visit. It is a well maintained museum which tells us more about this island’s local tribes. These tribes are also believed to be one of the oldest in the world. The islands have six main tribes native to this place, Onges, Sentinelese, Jarawas, Andamanese, Shompens and Nicobarese. These tribes maintain limited contact with the world, and not a lot is known about them. On a regular day one isn’t permitted to enter the tribal areas, but need to take special permission for the same. This museum is thus one of the ways to understand and know about the tribal life here."
+                    android:textColor="@color/black"
+                    android:textSize="16dp" />
+                <TextView
+                    android:id="@+id/textviewa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Photo Gallery"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:id="@+id/imaged"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/zonal1" />
+
+                        <ImageView
+                            android:id="@+id/imagee"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/zonal2" />
+
+                        <ImageView
+                            android:id="@+id/imagef"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/zonal3" />
+                        <ImageView
+                            android:id="@+id/image1"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/zonal4" />
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/zonal5" />
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <TextView
+                    android:id="@+id/textviewa1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Location"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textviewab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text=" Phoenix Bay, Port Blair, South Andaman Island, Andaman, Andaman and Nicobar Islands, 744101 , India"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewa1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Basic Details Of Anthropological Museum Port Blair"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textviewa2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="* Timings of Anthropological Museum In Port Blair:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textviewa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="9:00 am – 1:00 pm and 1:30 pm – 4:30 pm (Monday closed)"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewa2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="* Entry fee of Anthropological Museum In Port Blair:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textviewa2c"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewa1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Things To Do At Anthropological Museum Port Blair"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textview12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="An hour or two are enough to take a complete tour of the museum. Listed below are a few things to do here:"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textview13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewab1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Traveller Tips"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textview1g"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewab2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Interesting Facts and Trivia About Zonal Anthrapological Museum"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textview1gg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewac2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="How To Reach"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textview1cg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="      If you want the complete experience of the Andamans then I would suggest that you should book tickets for a sail from Chennai. Enjoy three days of fun in the ocean blues and you are up for a treat. If you tend to be a bit sea-sick then don’t worry a bit because you can fly to the Veer Savarkar International Airport in Port Blair."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewad2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Best Time To Visit"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textview1dg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="      Come summer and the Andamans just gives you that lovely tropical tinge. Though the heat can be a bit mean at times, you can cool off in the surrounding deep blue ocean. So now you know the best time to visit the Andamans. Just make sure you don’t visit the place in the raging monsoons."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewae2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Availability Of Guides"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textview1eg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="      It is always best to avail guides from the official tourism office at Andamans or to consult with a good tour agency to make your trip more enjoyable and convenient. I won’t recommend picking a guide just randomly. It might cause inconveniences later on."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewaF2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Transport Facilities"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textviewafa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="* Local Bus"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textview1fg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="      Mohanpura bus terminus is the central terminus. The buses working hours are from 4:30 am to 12 noon. The buses transport within port Blair is available all through the day. Private travel services also provide buses for travelling within Port Blair and other parts of Andaman, from Mohanpura terminus."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewaga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="* Cabs"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textview12g"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="      Private travel companies in Andaman provide cab services from airport(Arrival Hall)and Mohanpura central terminus. These are pre-paid taxi services, available for dropping the tourists to various destinations from the airport. So check in advance about the cost the taxis charge. Other than this, auto rickshaw and mini buses are also available for local transport."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewaha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="* Rental"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textview1hg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="      Rental services for two wheeler vehicles is another option. Hiring a two wheeler and going around the nearby places connected to the island, is a good option. People can also hire bicycles and explore small islands like Havelock and Neil Island. Andaman World Travels, Welcome to Andaman and Andaman Travelers are some of the travel companies providing cars, two wheeler and bicycles for rent."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewaia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="* By Boat"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/textview1ig"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textviewaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Nearby Attractions"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textview1jg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textviewak2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/allan"
+                    android:text="Nearby Restaurants"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textview1kg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/courgette"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/textview1lg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/courgette"
+                    android:text="      When you reach a place with so much history and culture in its cradle then you definitely need to dig deep and understand that.The Anthropological Museum in Port Blair is a proud ovation to the ethnicity and culture of the Island’s long traditional and cultural antiquity. What amazes one is that the Island has still kept intact its local tribal ethnicity and has tucked them away from the eyes of modernity."
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

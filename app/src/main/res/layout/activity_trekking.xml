@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greenleaf"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="@string/trekking_in_andaman_nicobar_islands"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/trekkingmain" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text=" About:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="       Blessed with an incredible region that would even attract the laziest guy to go for a trekking, Andaman and Nicobar Islands is the excellent trekking destinations in India. The rocky area, the lush green thick forests, the open landscape, and the dazzling mangroves, all attract trekkers to push their limit higher to explore an unexplored region of this surreal island. Trekking is the most adventurous activity in the Andaman and Nicobar Islands. It is one of the most preferred activities in the Islands. If you love nature and savor walking in the hills and admiring the views, then you can enjoy trekking in Andaman. Trekking in Andaman Islands is fruitful, as most of the islands in Andaman are covered with thick tropical rainforests, filled with wildlife, unique and local plants. Trekking on the Andaman is best to be done with an Andaman local guide, as trekking routes on the Andaman Islands are available with them."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text=" Highlights:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Andaman and Nicobar Islands have some dazzling hills and mountains that are perfect for trained trekkers as well as beginners. Trekking at Andaman and Nicobar Islands can also extend for a week or even months. Amongst the varied trekking destinations that Andaman offers, the Baratang Island in Andaman is excellent. It is popularly known for its limestone caves that are simply spectacular and can be arrived only by passing a thick mangrove forest. This will absolutely make an out-of-the-world trekking experience. Trekking in Andaman is exploring the different condition of the islands that are filled with scenic beauty and an excellent experience."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text=" Here are the top 6 islands for a perfect diving experience in Andaman:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="  1. Mount Harriet – Madhuban"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekha" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekhb" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekhc" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekhd" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekhe" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      One of the most famous trekking spots in Andaman is Mount Harriet. The trail begins from Mount Harriet and ends at Madhuban. The way to Madhuban is interesting and impressive; you will come across beautiful views, wild animals and rare species of plants. Not only does it treat the nature lover but also tests your level of trekking as the trail is quite difficult. So, do not forget to add this trekking option in your list!"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="Location: Hope Town, Port Blair, Andaman and Nicobar Islands 744107"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="  2. Chidiya Tapu – Black Mountain"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekkchudiyaa" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekkchudiyab" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekkchudiyac" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekkchudiyad" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekkchudiyae" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="     The black mountain is the centre of attraction of the trek to Chidiya Tapu. While the island is already famous for its sunset and bird-watching, the trail is even more fascinating! The trail offers views of green forest and clear coastline. The trek is called Munda Pahad, referring to the mountain. Since very few people know about the trek, you can have a hassle-free experience of trekking here."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:text="Location: Andaman and Nicobar Islands 744105"
+                android:includeFontPadding="true"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="  3.Havelock – Elephant Beach"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekelea" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekeleb" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekelec" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekeled" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekelee" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Havelock Island is one of the most beautiful places in Andaman. It offers magnificent and jaw-dropping views are must-see. And when it comes to trekking on the island, it is no less. The island is known for the pretty Elephant beach and trekking to the beach is one of the most thrilling activities you will get to do, if you are willing. You will be going through lush forest and the best part is that the trek will be followed by a cool breeze which is as soothing as hard is the trek!‍"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:text="Location: Andaman and Nicobar islands"
+                android:includeFontPadding="true"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="   4. Baratang – Limestone Caves"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/traklimea" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treklimeb" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treklimec" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treklimed" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treklimee" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Baratang is known for the famous limestone caves that are now a rare sight to see since they are melting up! So, if you do not want to miss out on a great experience of trekking in Andaman, buck up and learn the specialties of the place. You will be crossing a mangrove forest and then a paddy field, and finally you will reach the point where the caves reside. You will be left mesmerized by the limestone caves!"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:text="Location: Bay of Bengal"
+                android:includeFontPadding="true"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="  5. Diglipur Island – Alfred Caves"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekalferda" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekalferdb" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekalfredc" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekalferdd" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/trekalferde" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Trekking in Andaman islands will take you to the next level of adventure with its plethora of unique options to indulge in this heart-throbbing activity. Diglipur island is a place that boasts nature at its best. The island is known for its pristine beaches. Apart from that, it offers 22 caves that are untouched and unexplored. While trekking through the caves of Diglipur, you will feel that your hard work has paid off because they are a real treat to the eyes. They are magnificent and less crowded so you will have an experience of your own."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:text="Location: Andaman and Nicobar Islands 744210"
+                android:includeFontPadding="true"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="  6. Diglipur Island – Saddle Peak"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treksaddlea" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treksaddleb" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treksaddlec" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treksaddled" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/treksaddlee" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      A place with a rich bio-deserve, this place is one of the best trekking places in Andaman for nature lovers. They can enjoy trekking as well as witness the various species of birds. The surroundings are blessed with lush greenery. Not only is it home to 13 different species of birds but also 36 species of insects and several species of trees. At this highest point on the Andaman islands, Saddle peak also offers serene views of Kalpong river. Nature lovers, don’t sit up and join the trail now!"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:text="Location: Diglipur, North Andaman Island 744202, India"
+                android:includeFontPadding="true"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

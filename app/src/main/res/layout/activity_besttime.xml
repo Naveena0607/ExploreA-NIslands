@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenleaf"
+    tools:context=".besttime">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00bfff"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/allan"
+            android:gravity="center"
+            android:text="Best Time To Visit Andaman &amp; Nicobar Islands"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/backhome"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bestback">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/headerback"
+                                android:layout_width="390dp"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bes"
+                                android:transitionName="background_image_transition" />
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Best Time To Visit : Between October and May"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="Considering that Andaman is a coastal paradise, a tropical island, there are only two seasons it sees - summer and monsoon. The tropical nature of the island means there’s technically no winter season here. So, when it comes to picking the right season to visit Andaman, the summer season bags the prize. Summer is the most happening and refreshing season in Andaman, and herds of travellers from India and abroad flock here to cherish the seasonal glory of Andaman."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textviewa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Photo Gallery"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:id="@+id/imaged"
+                                android:layout_width="180dp"
+                                android:layout_height="120dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bes1" />
+
+                            <ImageView
+                                android:id="@+id/imagee"
+                                android:layout_width="180dp"
+                                android:layout_height="120dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bes2" />
+
+                            <ImageView
+                                android:id="@+id/imagef"
+                                android:layout_width="180dp"
+                                android:layout_height="120dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bes3" />
+                            <ImageView
+                                android:id="@+id/imageg"
+                                android:layout_width="180dp"
+                                android:layout_height="120dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bes4" />
+                            <ImageView
+                                android:id="@+id/imageh"
+                                android:layout_width="180dp"
+                                android:layout_height="120dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bes5" />
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="Summer is also the time when all water sports and activities are enjoyed, and every place is accessible. You can also enjoy a lavish cruise ride during the summers here. If you’re a solitary traveller and are seeking solitude and offbeat places, count on the ‘winter’ season, which is essentially from October to March.There’s no winter chill in the air, but a considerably lesser number of tourists, and possible dips in tariffs. Winter in Andaman is really just Summer part two, except with cooler climate and lower temperatures."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="In conclusion, the best time to visit Andaman and Nicobar Island is during the summers!"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Target the Annual Festive Extravaganza while planning for Andamans trip"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="The Annual Tourism Festival held usually in the month of January each year might be considered a good time to visit the beautiful islands. The vibrant cultural festivities along with brilliant showcasing of various talents of the local artists and performers from far and near add charm to the already famed beauty of the archipelago.Andaman is usually very pleasant to visit during the winter months and the tourist season starts from October and continues till May."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Summer, Sun and Sands of Andamans"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="The skies remain pleasantly sunny and bright and the climate is ideal for snorkelling and scuba diving, which are the main attractions for Andaman visit. The seas are flat and reflect the skies overhead joyfully in the crystal clear waters. Underwater visibility is near perfect which makes underwater activities a real pleasure."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Climate, Temperature and Weather Conditions in Andamans"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="Temperatures in the various islands are never extreme and ranges between 23 degrees Celsius to 30 degrees Celsius. The April to June temperatures vary from 24 to 37 degrees Celsius. From May to September the temperatures dip a bit and hover between 22 and 35 degrees Celsius. In the winter months, the temperature ranges from 20 to 30 degrees Celsius."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="Thus the summer temperatures are pleasantly warm and the tourist hubs such as Port Blair, Long Island, Neil Island, Havelock, Clique Islands, Smith and Ross Islands, Little Andaman, Baratang and Diglipur see a lot of enthusiastic crowd. The tourists love to bask in the golden sunshine along the golden beaches and enjoy the refreshing seas and exquisite beauty of the islands and the eco-marine life."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Monsoon Climate and Why it Should Be Avoided"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="It is recommended that Monsoons are to be strictly avoided while planning a visit to Andamans. The high tidal waves crashing the shores, the incessant pouring rains and the typically strong winds might cause a lot of inconvenience to outsiders not familiar with the harsh climatic conditions of the otherwise mildly seasonal Andamans. Andamans is situated in the Bay of Bengal seas and experiences a lot of extreme tropical monsoon climate with strong winds causing cyclones and deep destruction to life and property of the islanders.The monsoon rage usually hits the islands of Andaman and Nicobar around late May and continues till middle of September. Low underwater visibility and disruption in all ferry routes are a common phenomenon."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="Most ferries do not ply or are very irregular during this time. The underwater adventure sports along with sea-plane ride, paragliding and parasailing are all cancelled till weather becomes suitable once more. So you would miss out on the major fun part of visiting Andamans during monsoons. Moreover, the rage of cyclones hitting the island in the recent past has become major reasons not to travel to these parts during the monsoons."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Your Attire and Accessories as Part of Your Travel Plan"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="Choose your attire and accessories to suit the climate of the destination. For example, if you are visiting Andamans a pair of beach wear, swimming costumes, goggles to protect your eyes from the bright sunshine, a pair of flip-flops to waddle along the sunny beaches and lots of sunscreen lotion along with big colourful hats to protect your face and neck form the sunrays are a must. Light cotton clothes recommended during."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

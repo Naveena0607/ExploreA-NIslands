@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenleaf"
+    tools:context=".pearlsact">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00bfff"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/allan"
+            android:gravity="center"
+            android:text="Coconut Handicrafts"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/backhome"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bestback">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/headerback"
+                    android:layout_width="395dp"
+                    android:layout_height="225dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/comain"
+                    android:transitionName="background_image_transition" />
+                <TextView
+                    android:id="@+id/textviecb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/allan"
+                    android:text=" About:"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:includeFontPadding="true"/>
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:text="      Who doesn’t love some refreshing coconut water and the tender coconut pulp? But what if we tell you that even the hard shell can be used for making something good and doesn’t have to be thrown away? That’s right. You’ll come across various shops and stores in Andaman selling beautiful bowls, showpieces, vases, wind chimes, home decor items, toys, animal figurines, bags, and lampshades made out of coconut shells cut into various shapes and sizes. And they’ll be so pretty and eye-catching that you won’t be able to say no to buying them!"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/courgette"
+                    android:includeFontPadding="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/allan"
+                    android:includeFontPadding="true"
+                    android:padding="5dp"
+                    android:text=" Photo Gallery:"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/co2" />
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/c3" />
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/co4" />
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/co6" />
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/co5" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/allan"
+                        android:text=" Where To Buy:  "
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:includeFontPadding="true"/>
+                    <TextView
+                        android:id="@+id/textvie2a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/courgette"
+                        android:text=" Sagarika Government Emporium"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:includeFontPadding="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text=" Starting Price:  "
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:includeFontPadding="true"/>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text=" INR 50 "
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:includeFontPadding="true"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

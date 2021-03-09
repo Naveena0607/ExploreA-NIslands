@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/insiback"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Beaches In Neil Island"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      This island in Andamans is known for its charming beaches that provide you with the views of turquoise water and white sand."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1. Laxmanpur Beach"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/laxbeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Located on the long stretch of Laxmanpur Village, Laxmanpur beach is worth paying a visit during your Andaman holidays. The fact that very few tourists visit the beach and the beauty of its white shell sands and shallow waters make it fascinating for an Andaman honeymoon. Collect seashells and corals while beach combing as they are found in plenty on this beach."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Swimming and snorkeling."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2. Sitapur Beach"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sitabeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Sitapur beach is among the unusual, unspoiled, and famous beaches in Andaman. Located at the tip of the Neil Island, it is perfect for a fun-filled vacation. Its wide stretch of white sands, luxuriant vegetation, transparent blue waters and breathtaking natural beauty enhance the charm quotient of the place."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photogenic karst topography."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3. Bharatpur Beach"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bharatbeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Bharatpur beach finds it place among the best beaches in Andaman for the spectacular views of the clear sea that it offers. The sprawling beach has vibrant coral reefs and the place is also perfect for swimming. When you lay your eyes on the beach, you will feel as if some artist has painted this beach on his dreams."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Spotting exotic marine flora and fauna and spectacular corals in glass bottom vessels"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

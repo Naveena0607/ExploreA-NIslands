@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navhome"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_reply_24"
+            android:title="Logout"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+           android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share" />
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="Rate us" />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="About us" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Map " />
+
+    </group>
+
+
+</menu>

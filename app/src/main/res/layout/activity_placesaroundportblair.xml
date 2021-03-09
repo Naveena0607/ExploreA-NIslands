@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greenleaf"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Places Around Port Blair"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/portblairmain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" About:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aboutport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/porta" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/portb" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/portc" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/portd" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/portf" />
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/porte" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text="Facts About Port Blair"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/perfectsea"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Port Blair Tourist Attractions:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/portattract" />
+            <TextView
+                android:id="@+id/seamain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Nearby Islands:"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/nearby"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Things To DO In Port Blair"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text=" 1. Scuba Dive in Mundapahar:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/scubamun"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Scuba Diving in Port Blair is a decent experience thanks to the rich coral reefs surrounding the waters of Mundapahar Beach. Scuba is only available near Chidiyatapu, on one specific spot near the Mundapahar Beach, which has to be reached via a boat. Due to the lack of diving centers in Port Blair, most people prefer opting for scuba in North Bay which is a small island near Port Blair and is considered a part of it. North Bay has a pretty decent coral population and a great environment to dive in, making it one of the most popular places to dive in Andaman."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text=" 2. Parasailing at Corbyn's Cove Beach:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/cpara" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Parasailing is one of those activities which is both awe-inspiring and exhilarating.  The sudden jumps on the sea combined with the air-time with an amazing view are something that can’t be quenched by any other water sport. Parasailing is available at the Corbyn’s Cove beach in Port Blair. The tickets can either be booked online or can be found at the Coral Safari’s booth at the center of the beach. Overall a decent experience to have in the capital city."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="   3. Sea Kart Ride at Corbyn's Cove:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/portseakart" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Sea Kart is a perfect mixture of fun and exploration combined with a bit of exhilaration. The sea kart is exclusively available at the Corbyn's and takes you on a wonderful journey over the calm yet wild seas from the beach, all the way to the Water Sports Complex, depending on the tide.
+
+The ride takes place for a total of 30 minutes, giving you more than enough time to grasp the deep blue water and horizon with the splash of waves alongside you. Overall, a great experience to have with your friends and family."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="   4. Bella Bay Dinner Cruise:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/portbella" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Bella Bay offers a calm and romantic evening along with great food and a bit of exploration. The cruise leaves from the Chatham Jetty and explores the seas surrounding Port Blair and other nearby islands. With an amazing menu in your hand along with the perfect view of the sunset and live music, Bella Bay is one of those experiences which is highly recommended for couples, especially honeymooners traveling in Port Blair."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="   5. Mangrove Boat Ride to Viper Island:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/portman" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Offbeat boat rides from Sippighat, located 6 km from the Port Blair Airport, is one of the most unique experiences you can have in Port Blair. The journey starts at Port Blair and takes you via the mangrove forest, passing the surrounding areas, all the way to Viper Island, where you can explore the historical monuments.
+
+The journey takes you between the wide and narrow shorelines of several small islands surrounding Port Blair till you reach Viper. You can also hire boats for Mangrove Forest Ride, which takes you to the center of deep mangrove canopy and back to Sippighat. A complete trip via the mangrove forest to Viper Island takes around 3.5 hours to complete and costs around Rs.2000/-, while a ride to the mangrove forest and back costs Rs.1300/- and takes around 1.5 hours for completion."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text=" 6. Bird Watching by Budding Trails:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/portbird" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Andaman is home to a wide variety of endemic and seasonal birds that can be spotted deep inside the tropical forest canopy of the Andaman Islands. Bird Watching tours by Budding Trails stands out among others as they offer it as it is- a raw and engaging experience with fair pricing.
+
+Trips are usually done on the Chidiyatapu forest reserve, which has a dense population of both common and rare bird species, thriving under the protection of Andaman Administration. With the help of experienced bird watchers and helpers, you are sure to quench the thirst of the unknown. Any usual trip includes Pick Up and Drop, Breakfast, Binoculars and Gear, and a team of experienced guides."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text=" 7. Banana, Sofa, and Jet Ski Ride at Water Sports Complex:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/portbanana" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Banana and Sofa rides offer casual fun and adventure, perfect for the whole family. They are only available in Port Blair at the water sports complex and tickets can be bought on spot from the respective booth, inside the complex. Jet Ski rides are also pretty famous at the complex, because of the steady waves and the view of Ross Island from the jetty. Overall a decent experience to have while you are exploring Port Blair."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text=" 8. Mundapahad Trekking Trail:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/porttrek" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Besides the popular sunset, Chidiyatapu, Munda Pahad Beach to be exact offers a great trekking trail which takes you along a narrow hilly pathway surrounded by the dense tropical forest on both sides that opens into a clear area on top of the cliff that offers one of the most spectacular views of the open sea, seconded by nothing else. A great place to see if you are already visiting Chidiatapu on your trip. Make sure to hire a guide before traveling."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:text="   9. Souvenir Shopping:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/portshop" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:text="      Port Blair is the best place to buy souvenirs for your friends and family because it has the most number of handicrafts and souvenir shops scattered throughout the main Bazaar area. From tribal handicrafts made of wood to seashells and large shells of unique designs, everything is available at great prices.
+
+Sagarika Emporium is the best Govt. Run store located at Middle Point, while Sagarekha- a privately owned handicraft store located nearby, is considered the best among all for its diverse collection."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:fontFamily="@font/courgette"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" How to Reach Port Blair::"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/trans"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" 1. Flight"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/flight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" 2. ship"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/ship"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" General Information"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Language"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/lang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Currency:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/cur"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Internet and connectivity:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/intconn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Important Contact Information:"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/continfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:includeFontPadding="true"
+                android:fontFamily="@font/courgette"/>
+
+
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

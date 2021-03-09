@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exploreanislands">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".placesaroundportblair"></activity>
+        <activity android:name=".travelbair" />
+        <activity android:name=".besttime" />
+        <activity android:name=".parksofan" />
+        <activity android:name=".marineparkactivity" />
+        <activity android:name=".mountparkactivity" />
+        <activity android:name=".campbellparkactivity" />
+        <activity android:name=".mangrooveactivity" />
+        <activity android:name=".southparkactivity" />
+        <activity android:name=".northbutonparkactivity" />
+        <activity android:name=".ranijhansiparkactivity" />
+        <activity android:name=".galatheaparkactivity" />
+        <activity android:name=".sadleparkactivity" />
+        <activity android:name=".middlebutonactivity" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".map" />
+        <activity android:name=".shareactivity" />
+        <activity android:name=".cafdelmer" />
+        <activity android:name=".cafekookie" />
+        <activity android:name=".bluebetel" />
+        <activity android:name=".nemocafe" />
+        <activity android:name=".caferebel" />
+        <activity android:name=".brewcafe" />
+        <activity android:name=".keralacafe" />
+        <activity android:name=".somethingdiff" />
+        <activity android:name=".fatmartincafe" />
+        <activity android:name=".fullmooncafe" />
+        <activity android:name=".cafe" />
+        <activity android:name=".tangoresort" />
+        <activity android:name=".pearlparkbeachresort" />
+        <activity android:name=".havelockresort" />
+        <activity android:name=".dolphin" />
+        <activity android:name=".sinclaris" />
+        <activity android:name=".bluebird" />
+        <activity android:name=".wildorchid" />
+        <activity android:name=".symphonyre" />
+        <activity android:name=".seashell" />
+        <activity android:name=".fortuneresort" />
+        <activity android:name=".silversand" />
+        <activity android:name=".barefoot" />
+        <activity android:name=".hotels" />
+        <activity android:name=".eid" />
+        <activity android:name=".ramzan" />
+        <activity android:name=".christmas" />
+        <activity android:name=".holi" />
+        <activity android:name=".gurunanak" />
+        <activity android:name=".ganeshpooja" />
+        <activity android:name=".shivaratri" />
+        <activity android:name=".deepavali" />
+        <activity android:name=".durgapooja" />
+        <activity android:name=".istouristfesti" />
+        <activity android:name=".kalipooja" />
+        <activity android:name=".fairsnfaesti" />
+        <activity android:name=".bypriferry" />
+        <activity android:name=".byroad" />
+        <activity android:name=".bygovferry" />
+        <activity android:name=".transbywat" />
+        <activity android:name=".transtoanbyair" />
+        <activity android:name=".barrensanc" />
+        <activity android:name=".lohabarraksan" />
+        <activity android:name=".interviewsanct" />
+        <activity android:name=".cuthbert" />
+        <activity android:name=".landfullwildlife" />
+        <activity android:name=".sanctuaries" />
+        <activity android:name=".cocnutgoods" />
+        <activity android:name=".bcgoods" />
+        <activity android:name=".hats" />
+        <activity android:name=".nicobarmat" />
+        <activity android:name=".juteproducts" />
+        <activity android:name=".shells" />
+        <activity android:name=".timbercrafts" />
+        <activity android:name=".fishbone" />
+        <activity android:name=".spices" />
+        <activity android:name=".pearlsact" />
+        <activity android:name=".shopping" />
+        <activity android:name=".chathamisalnd" />
+        <activity android:name=".viperisalnd" />
+        <activity android:name=".rossisalnd" />
+        <activity android:name=".rangatisalnd" />
+        <activity android:name=".barrenisalnd" />
+        <activity android:name=".middleisland" />
+        <activity android:name=".longisland" />
+        <activity android:name=".littleandamanlsland" />
+        <activity android:name=".digilpurisalnd" />
+        <activity android:name=".mayabunderisalnd" />
+        <activity android:name=".batarangisland" />
+        <activity android:name=".neilisalnd" />
+        <activity android:name=".havelockisland" />
+        <activity android:name=".barbeques" />
+        <activity android:name=".grilledlobsters" />
+        <activity android:name=".tandoorifish" />
+        <activity android:name=".coconutprown" />
+        <activity android:name=".macherjhol" />
+        <activity android:name=".chillicurry" />
+        <activity android:name=".kulcha" />
+        <activity android:name=".fishcurry" />
+        <activity android:name=".food" />
+        <activity android:name=".fishersmuseum" />
+        <activity android:name=".cellularmuseum" />
+        <activity android:name=".kalapanimuseum" />
+        <activity android:name=".forestmuseum" />
+        <activity android:name=".samudrikamuseum" />
+        <activity android:name=".zonalmuseum" />
+        <activity android:name=".museum" />
+        <activity android:name=".weekendgetaway" />
+        <activity android:name=".andamanrunaway" />
+        <activity android:name=".romanticgetaway" />
+        <activity android:name=".honeymoondelight" />
+        <activity android:name=".familypackage" />
+        <activity android:name=".holidaypackage" />
+        <activity android:name=".exploreandaman" />
+        <activity android:name=".exoticndaman" />
+        <activity android:name=".honeymoonescapades" />
+        <activity android:name=".activitydelight" />
+        <activity android:name=".blissfulpackage" />
+        <activity android:name=".amazingandamanpackage" />
+        <activity android:name=".weather" />
+        <activity android:name=".culture" />
+        <activity android:name=".history" />
+        <activity android:name=".peopleofandaman" />
+        <activity android:name=".andamanoverview" />
+        <activity android:name=".portbllair" />
+        <activity android:name=".glassbottom" />
+        <activity android:name=".parasailing" />
+        <activity android:name=".seaplane" />
+        <activity android:name=".lightandsoundshow" />
+        <activity android:name=".seawalk" />
+        <activity android:name=".camping" />
+        <activity android:name=".gamefishing" />
+        <activity android:name=".birdview" />
+        <activity android:name=".mangrovesafari" />
+        <activity android:name=".trekking" />
+        <activity android:name=".snorkeling" />
+        <activity android:name=".scubadiving" />
+        <activity android:name=".rossislandbeach" />
+        <activity android:name=".littleislandbeach" />
+        <activity android:name=".beachesinmayabandur" />
+        <activity android:name=".beachesinrangat" />
+        <activity android:name=".beachesinlong" />
+        <activity android:name=".beachesindigilpur" />
+        <activity android:name=".beachesinbaratang" />
+        <activity android:name=".beachesinneil" />
+        <activity android:name=".Beachesinhavelock" />
+        <activity android:name=".Beachesinportblair" />
+        <activity android:name=".BeachActivity" />
+        <activity android:name=".IsalndActivity" />
+        <activity android:name=".BeachesActivity" />
+        <activity android:name=".Activities" />
+        <activity
+            android:name=".TransActivity"
+            android:parentActivityName=".MainHomeActivity"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".GeneralInfo"
+            android:parentActivityName=".MainHomeActivity"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".packages"
+            android:parentActivityName=".MainHomeActivity"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".InsightActivity"
+            android:parentActivityName=".MainHomeActivity"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainHomeActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".splashActivity"
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

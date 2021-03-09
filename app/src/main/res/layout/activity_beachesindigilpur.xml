@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/insiback"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Beaches In Little Andaman Island"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Diglipur is situated on the northern part of Andaman Island and there is no dearth of picturesque beaches on this island too. Have a good time here by visiting the two most popular beach:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/kalipurbeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Kalipur beach is one of the most popular beaches of Diglipur – the largest town of North Andaman Island. The picturesque beach offers awe-inspiring views of the Saddle Peak and the sea that enhance the splendor of the shore. If you want to enjoy watching turtles making their way to sea when hatched from their eggs, then you should definitely come to this beach."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spotting sea turtle and trekking to Saddle Peak."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2. Pathi Level Beach"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/pathibeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Pathi Level is one of the offbeat beaches in Andaman, lying in close proximity to Ram Nagar beach. One can reach this serene and stunningly beautiful place in a typical dinghy or boat. It is a perfect place to unwind, chill, and rejuvenate. If you are looking for some isolation and want to get away from the touristy crowd, then you should come to this beach."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Chalis Ek Caves and Alfred Caves."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

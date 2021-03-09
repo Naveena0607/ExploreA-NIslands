@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/insiback"
+        tools:context=".MainHomeActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#00bfff"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/allan"
+                android:gravity="center"
+                android:text="Beaches in Port Blair"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/backhome"
+            android:orientation="vertical"
+            android:weightSum="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      First comes the beaches on the capital island-city, Port Blair. These beaches are known for their picturesque beauty. Enjoy taking a a stroll or watching surreal sunset on these best beaches of Andaman:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1. Corbyn’s Cove"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/corbynscove" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Lined with luxuriant coconut plantations, Corbyn’s Cove is one of the most unspoiled Andaman beaches in Port Blair. One can indulge in watersports, take a leisure stroll, relish at the beach shacks, or take a boat ride up to the Snake Island. This is one of the most exotic beaches in Andaman offering enticing escapes to the nature lovers. The peace and tranquility of this beach will win you over.
+Seakarting is emerging as one of the most popular water sports in Andaman due to which many adventure seekers visit Corbyn’s Cove throughout the year. You can plan a visit to this beach if you want to ride an exclusive hybrid of Jet Ski and Speed Boat that features a blend of speed and excitement with safety and comfort. Starfish Adventures hosts enthralling Seakarting excursions at Corbyn’s Cove Beach. Known for offering one of the best seakarting experiences in the country, the adventure centre is gaining a lot popularity among holidayers. They have ‘practically’ unsinkable seakarts that can seat 2 guests and an instructor at a time. You can ride these exclusively designed seakarts on a 30-minutes long thrilling expedition offered on a sharing as well as non-sharing basis."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/corb1" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/corb2" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/corb3" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/corb4" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/corb5" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seakart Adventure, Scuba diving, boating, sunbathing, swimming, and surfing."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2. Wandoor Beach"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/wandoorbeach" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" About:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      This coral beach in Andaman, Wandoor is one of the most charming and popular Andaman and Nicobar beaches. The beach is the gateway to the Mahatma Gandhi National Marine Park – a perfect place to spot exquisite corals and marine fauna. A paradise for photographers and nature lovers, this beach is frequented by tourists for relaxing walks. "
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/allan"
+                android:includeFontPadding="true"
+                android:padding="5dp"
+                android:text=" Photo Gallery:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/wan3" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/wan1" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/wan2" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/wan4" />
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/wan5" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Famous For:"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:fontFamily="@font/allan"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Glass-bottom boating and scuba diving under professional guidance."
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:includeFontPadding="true"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

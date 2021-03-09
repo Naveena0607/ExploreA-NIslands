@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenleaf"
+    tools:context=".culture">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00bfff"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/allan"
+            android:gravity="center"
+            android:text="Culture Of Andaman &amp; Nicobar Islands"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/backhome"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="15dp"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bestback">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:elevation="15dp"
+                        app:cardCornerRadius="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/headerback"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/cult"
+                                android:transitionName="background_image_transition" />
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textviewb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="* Andaman and Nicobar culture show a mix of the indigenous cultures of the settlers of the island, as well as a more mainstream culture brought down by the descendants of the early settlers in the island from the Indian mainland.The greatest feature of Andaman and Nicobar culture is the peaceful coexistence of these two strains of cultural lives."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/textviewa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Photo Gallery"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:id="@+id/imaged"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cult1" />
+
+                        <ImageView
+                            android:id="@+id/imagee"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cult2" />
+
+                        <ImageView
+                            android:id="@+id/imagef"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cult3" />
+                        <ImageView
+                            android:id="@+id/imagel"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cult4" />
+                        <ImageView
+                            android:id="@+id/imageq"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/cult5" />
+
+
+                    </LinearLayout>
+                    </HorizontalScrollView>
+                    <TextView
+                        android:id="@+id/textviewf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/allan"
+                        android:text="Aspects Contributing To Culture"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="1.History"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The earliest archaeological presence is considered to be around 2,200 years old. The Chola Dynasty had a prominent presence from 1014 to 1042 AD.European colonization began when settlers from the Danish East India Company arrived here on 12 December 1755.On 1 January 1756, it was made a Danish Colony and named “New Denmark”, which was later changed to Frederick's Islands. The islands were repeatedly abandoned during 18th and 19th century due to outbreaks of malaria. During World War II, the islands were under Japanese control for three years.During this,the islands were renamed as Shaheed-dweep and Swaraj-dweep. After Independence, it became part of independent India in 1950.It was declared as a union territory of the nation in 1956."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/textviewg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="2.People"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The people of Andaman and Nicobar are divided mainly into two categories indigenous tribal people and outside settlers. Both classes have different traditions and cultures, which creates a beautiful combination.The indigenous tribes are mainly hunters or horticulturists and do not have much contact with outsiders. The present culture is mostly influenced by the outside settlers who have a high standard of living."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textviewi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="3.Language"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The most spoken language in Andaman and Nicobar Islands is Bengali. Hindi is the official language and spoken widely after Bengali. English is the second official language for communication purposes.Other languages include Tamil, Telegu, Nicobarese, and Malayalam, which are spoken by very few people."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textviewk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="4.Literature"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Literary art is not much prevalent in the region. There are many local authors and historians, who have produced many works but the same do not earn recognition.Hence, efforts are being made to various mainland Indian writers to encourage art in the region."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="5.Facts"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The region surrounds some of the important facts not known to many. The archipelago is home to the only active volcano in India. It is home to the largest living arthropod in the world.Baratang Island in Andaman is the only place in India with mud volcanoes. India’s first commercial seaplane was launched here. To preserve marine life, commercial fishing is banned in Andaman. The world’s largest sea turtle named ‘Leatherback’ is found here.Tamil was once the widely spoken language, which is now a minority. The state symbol of the Archipelago is a sea cow named “Dugong”."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                         />
+                    <TextView
+                        android:id="@+id/textviewo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="6.Religion"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      People from diverse religions are a part of the total population of Andaman. However, Hindu community constitutes the majority.As per the population census of 2011, Hindu people comprised of 69.44 % of the total population. Majority of the Hindus speak Bengali. The next majority is formed by Christians, which accounts for 21.7 %.The presence of Christian people owes to the erstwhile presence of the Portuguese. Muslim people form a minority in the region with a total percentage of 8.51 of the population as per the census."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                       />
+                    <TextView
+                        android:id="@+id/textviewq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="7.Occupation"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The main occupation, which forms a major part of the livelihood of the people of Andaman and Nicobar Islands are Agriculture, Forestry, and Fishing.South India is a huge producer of spices and the main crops of Andaman and Nicobar Islands besides spices are rice, betel, coconut, oil palms, cashews, rubber, fruits, etc. The forestry industry mainly focuses on the production of sawn wood, which is partly exported to mainland India and partly utilized for local purposes. The presence of luxuriant and rich forests in the region is the source of the huge production of sawn wood.Some people are also engaged in carpentry related activities like furniture making, etc. Fishery is yet another major occupation.Tourism is another sector, which plays a major role in the livelihood of the masses."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textviews"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="8.Lifestyle"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The people lead a very simple lifestyle. Most of the population is engaged in Agricultural, Forestry and Fishing activities. There are less advancement and development in the region in terms of jobs, resources and healthcare facilities.Hunting is the common activity of the indigenous tribes. Some are also involved in horticulture activities. Men and women both take care of all the household activities, though hunting is reserved mainly for men.Nuclear family is a common concept. Adoption of children is also quite common in the region."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textviewu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="9.Cuisines"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The cuisine is heavily influenced by the presence of several cultures in the region. Due to the presence of diverse religions like Hindu, Christian, Muslim, and Sikh, traditional food is a reflection of their traditions. The cuisines consist of non-vegetarian spicy food.Fish and rice are a prominent part of daily cuisine. Being a coastal area, seafood is also widely available. Vegetables are mostly imported from other states."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/textvieww"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="10.Fairs and Festivals"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Fairs and festivals are an important part of the culture. Hindu Indian festivals like Kali Pooja, DurgaPooja, Diwali, Holi, Ayappa Puja, Ram Navami, Nag Panchami, Sivaratri, Vasant Panchami, etc are celebrated with high zeal and enthusiasm. The Muslim community celebrated Ramadan wholeheartedly.Christmas is also an important festival when the region gets light up with lights and candles. Apart from these, many annual fests are organized in the Archipelago. One of the most important is the Beach and Island tourism Festival organized in various islands. It arranges a plethora of cultural activities, games, and adventure sports for residents and tourists."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/textviewy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="11.Music and dance"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textviewz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Music and Dance is an important part of Andaman’s culture. The Andamanese have their own folk music, which is a reflection of the rich heritage.What makes their music unique is the originality in the genre. They do not follow any style or let it get influenced by western culture. All tribes have different songs of their own.All their songs are accompanied by a dance. The oldest traditional dance of the region is Nicobari. The Nicobari tribe performs this dance form during the Ossuary Feast. It is the way of showing respect to departed souls.There are many other popular dance forms as well. Some of these folk dances performed during the Island Tourism festival. The Island Festival is a hub of cultural activities."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/textview1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="12.Arts and Crafts"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The people of Andaman and Nicobar islands are experts in wood, cane and bamboo works. The main handicrafts are created from raw materials like Padauk, Badam, Gurjan, Canes, bamboo coral, shells, driftwood, seaweeds, which are found in abundance.Woodwork and carpentry are local crafts. Wooden articles include furniture, marblewood, Paduak, and Chui. The driftwood is converted into decorative art objects. On some islands, the wooden statues of couples, animals, and birds are also made by the locals. Their bamboo and cane works include exquisite items like cane baskets, furniture, etc. Another important handicraft is Shell craft, which includes ashtrays, lamps, jewelry, etc.The tortoise shell is also used to make boxes and decorative items. Handicrafts from coconut shells are also made. Basketry and Mat Making are important traditional crafts of Nicobar. Mats are made with Pandanus leaves and coconut stems. Another functional craft including the making of crossbows."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/textview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="13.Wildlife"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The richest varieties of flora and fauna are present in the archipelago. There are nine national parks and 96 marine and wildlife sanctuaries, and one biosphere reserve in the region. There are around 2200 recorded varieties of plants.Around 50 different species of mammals are found in the island. Rodents are found in a huge number with 26 species. Bats are found in 14 species. There are around 270 species of birds, 225 species of butterflies and moths."
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:id="@+id/textview5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="14.Tribes"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      The Archipelago is home to 6 tribes. The 'Negrito' tribesare nomadic hunters by occupation who are believed to arrive from Africa 60,000 years ago. The 'Mongoloid' tribes arrived from Malay-Burma coast several thousand years ago. The Great Andamanese suffered most due to the presence of outsiders.Around 99% has been wiped out by the British. The Jarawa tribe lives entirely by hunting, gathering, and fishing. The Sentineles are themost isolated of all the tribes. The Shompen are isolated tribes of Great Nicobar Island who are hunter-gatherers. The Nicobarese, unlike other tribes, are mainly horticulturalists."
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        />
+                    <TextView
+                        android:id="@+id/textview7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/allan"
+                        android:text="15.Tourism"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textview8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/courgette"
+                        android:text="      Andaman and Nicobar is one of the most widely visited tourist destinations in the world. The archipelago is home to around 500 islands, which are home to numerous exotic-looking and pristine beaches that are sure to make you spellbound. With ample opportunities for water adventures, it is a paradise for vacations.Some of the islands are still untouched for which plans are going on for development. Luxury resorts have been set up to provide tourists with world-class hospitality.Besides islands and beaches, there are religious places like temples, mosques, etc. The place also hosts some architectural beauties from the colonial period including the historical cellular jail.Indian tourists do not require any permit to visit any of the Andaman Islands except which are inaccessible"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
